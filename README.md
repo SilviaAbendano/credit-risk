@@ -11,10 +11,20 @@ $ conda activate credit
 3. How to install packages
 
 ```bash
-$ credit-risk conda install pandas
+$ conda install pandas
 ```
 
 ## Jupyer notebook
 Step 1: cmd + ctrl + p
 Step 2: jupyter: create new blank notebook 
 Step 3: !!! dont forget to select a kernel !!!
+
+## Push project to Git
+
+```bash
+$ git status
+$ git add .
+$ git commit -m "<insert message>"
+$ git push origin master
+```
+
